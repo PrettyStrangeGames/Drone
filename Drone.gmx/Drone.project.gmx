@@ -8,6 +8,21 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="Handlers">
+      <script>scripts\scr_menu.gml</script>
+    </scripts>
+  </scripts>
+  <objects name="objects">
+    <objects name="System">
+      <object>objects\ob_playerstats</object>
+      <object>objects\ob_menu</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_menu</room>
+    <room>rooms\rm_map</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
